@@ -1,4 +1,12 @@
 <!--
+ * @Author: your name
+ * @Date: 2021-08-16 18:35:10
+ * @LastEditTime: 2021-08-17 17:03:53
+ * @LastEditors: Please set LastEditors
+ * @Description: In User Settings Edit
+ * @FilePath: \smart-screen\src\pages\government\components\Map.vue
+-->
+<!--
   功能 地图
   作者：licy
   邮箱：licy@briup.com
@@ -41,7 +49,7 @@ export default {
       };
       let district = new AMap.DistrictSearch(opts);
       district.setExtensions('all');
-      district.search('昆山市', function(status, result) {
+      district.search('太原', function(status, result) {
           map.remove(polygons)//清除上次结果
           polygons = [];
           var bounds = result.districtList[0].boundaries;

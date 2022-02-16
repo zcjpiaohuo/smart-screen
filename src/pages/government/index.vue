@@ -2,7 +2,7 @@
   <div class="container_government">
     <!-- 顶部 -->
     <div class="header">
-      <div class="title">昆山市政务服务分析监测中心</div>
+      <div class="title">太原市政务服务分析监测中心</div>
     </div>
     <!-- /顶部 -->
     <!-- 内容 -->
@@ -71,7 +71,7 @@
           </Box>
         </div>
         <div class="content_tow_3 chart_box">
-          <Box title="一鹿快办近一个月用户注册量">
+          <Box title="近一个月用户注册量">
             <template v-slot:content>
               <Bottom3/>
             </template>
